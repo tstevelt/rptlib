@@ -1,18 +1,18 @@
 
 Library used to generate reports in various formats and send to standard out or user's email.
 
-Format      Description
------------ --------------------------------------------------------------------
-CSV         Comma Separated Values with one header line of column names
-EXCEL       Excel spreadsheet (XLSX format) with one header row of column names
-TEXT        Report in text format. Paged.
-PDF_VIEW    PDF for viewing on website. Paged.
-PDF_EMAIL   PDF to send to user's email. Paged.
-HTML        HTML format for disply on website. One header line.
-EMAIL       HTML format to send to user's email. One header line.
-APPEND_W    Invest system. Append to watchlist table. No header line.
-REPLACE_W   Invest system. Replace rows in watchlist table. No header line.
-TEMP        Invest system. Replace rows in temp table. No header line.
+Format      | Description
+----------- | --------------------------------------------------------------------
+CSV         | Comma Separated Values with one header line of column names
+EXCEL       | Excel spreadsheet (XLSX format) with one header row of column names
+TEXT        | Report in text format. Paged.
+PDF_VIEW    | PDF for viewing on website. Paged.
+PDF_EMAIL   | PDF to send to user's email. Paged.
+HTML        | HTML format for disply on website. One header line.
+EMAIL       | HTML format to send to user's email. One header line.
+APPEND_W    | Invest system. Append to watchlist table. No header line.
+REPLACE_W   | Invest system. Replace rows in watchlist table. No header line.
+TEMP        | Invest system. Replace rows in temp table. No header line.
 
 Reports support one level of breaks and subtotals, as well as grand totals.
 
