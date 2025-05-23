@@ -65,7 +65,11 @@ static void MakePDF ( char *TextFile )
 
 	system ( CommandLine );
 
+#ifdef UNIX
 	snprintf ( CommandLine, sizeof(CommandLine), "/usr/bin/ps2pdf %s %s", TempFile, PDF_File );
+#else
+	snprintf ( CommandLine, sizeof(CommandLine), "/usr/local/bin/ps2pdf %s %s", TempFile, PDF_File );
+#endif
 
 	if ( DebugRptDeliver )
 	{
